@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+        <head>
+          <link rel="stylesheet" href="exp33.css" />
+          <title>Juice shop</title>
+          <script src="text.js"></script>
+        </head>
+        <body bgcolor="skyblue">
+          <div class="menu-bar" font color="white">
+              <h1>THIRSTY BEVERAGES</h1>
+            <ul>
+              <li><a href="#">Favourite <i class="fas fa-caret-down"></i></a> 
+                  <div class="dropdown-menu">
+                      <ul>
+                              <li><a href="#">Sugarcane</a></li>
+                              <li><a href="#">Watermelon</a></li>
+                              <li><a href="#">Grape</a></li>
+                              <li><a href="#">Pineapple</a></li>
+                              <li><a href="#">Pomegranate</a></li>
+                              <li><a href="#">Strawberry</a></li>
+                              <li><a href="#">Mixed fruit</a></li>
+                          </ul>
+                        </div>
+                       </li> 
+                      
+              
+              <li><a href="#">Feedback <i class="fas fa-caret-down"></i></a>
+                  <div class="dropdown-menu">
+                      <ul>
+                        <li><a href="#">Good</a></li>
+                        <li><a href="#">Better</a></li>
+                        <li><a href="#">Not bad</a></li>
+                        <li><a href="#">Need improvement</a></li>
+                            </ul>
+                          </div>
+                        </li>
+            </ul>
+          </div>
+          <div class="hero">
+            &nbsp;
+          </div>
+      <h1><center><b><i>"Thirsty Beverages"</b></i></center></h1> 
+      <center><img src="Screenshot_20230218-141741_Chrome.jpg" width="200" height="200"></center> 
+      <p><i><b>Welcome you all to our Thirsty Beverages. We assure our customers are satisfied by  our drinks and services.</i></b></p> 
+      <h3><b><u>Menu</b></u></h3> 
+      <table border="1"> 
+      <colgroup> 
+      <col span="1" bgcolor="red"> 
+      <col bgcolor="yellow">
+      <tr> 
+      <th>Beverages</th> 
+      <th>Price</th> 
+      </tr> 
+      <tr> 
+      <td>Sugarcane juice</th> 
+      <td>Rs.30</th> 
+      </tr> 
+      <tr> 
+      <td>Watermelon juice</th> 
+      <td>Rs.40</th> 
+      </tr> 
+      <tr> 
+      <td>Grape juice</th> 
+      <td>Rs.50</th> 
+      </tr> 
+      <tr> 
+      <td>Pineapple juice</th> 
+      <td>Rs.50</th> 
+      </tr> 
+      <tr> 
+      <td>Apple juice</th> 
+      <td>Rs.60</th> 
+      </tr> 
+      <tr> 
+      <td>Pomegranate juice</th> 
+      <td>Rs.80</th> 
+      </tr>
+      <tr> 
+      <td>Strawberry juice</th> 
+      <td>Rs.80</th> 
+      </tr> 
+      <tr> 
+      <td>Mixed fruit juice</th> 
+      <td>Rs.100</th> 
+      </tr> 
+      </table> 
+    <form action = "" name = "myForm" onsubmit = "return(validate());">
+      <b>Name:</b><br> 
+      <input type="text" id="name" name="name"><br> 
+      <b>Mobile No.:</b><br> 
+      <input type="tel" name="mobile" placeholder="1234567809" ><br><br> 
+      <b>Email.id:</b><br> 
+      <input type="email" id="mail" name="mail" value=""><br> 
+      <b>Address:</b><br> 
+      <textarea id="address" rows="4" name="address" cols="50"></textarea> 
+      <legend> <b>Juice needed</b> </legend> 
+      <label> Choose your needed juices:</label><br> 
+      <input type="checkbox" id="Sugarcane" name="sugarcane" value=""> 
+      <label> Sugarcane juice</label> 
+      <input type="number" id="count" name="count" value="" min="0" max="500"><br> 
+      <input type="checkbox" id="Watermelon" name="Watermelon" value=""> 
+      <label> Watermelon juice</label> 
+      <input type="number" id="count" name="count" value="" min="0" max="500"><br>
+      <input type="checkbox" id="Grape" name="Grape" value=""> 
+      <label> Grape juice</label> 
+      <input type="number" id="count" name="count" value="" min="0" max="500"><br> 
+      <input type="checkbox" id="Pineapple" name="Pineapple" value=""> 
+      <label> Pineapple juice</label> 
+      <input type="number" id="count" name="count" value="" min="0" max="500"><br> 
+      <input type="checkbox" id="Apple" name="Apple" value=""> 
+      <label> Apple juice</label> 
+      <input type="number" id="count" name="count" value="" min="0" max="500"><br> 
+      <input type="checkbox" id="Pomegranate" name="Pomegranate" value=""> 
+      <label> Pomegranate juice</label> 
+      <input type="number" id="count" name="count" value="" min="0" max="500"><br> 
+      <input type="checkbox" id="Strawberry" name="Strawberry" value=""> 
+      <label> Strawberry juice</label> 
+      <input type="number" id="count" name="count" value="" min="0" max="500"><br> 
+      <input type="checkbox" id="Mixed fruit" name="Mixed fruit" value=""> 
+      <label> Mixed fruit juice</label> 
+      <input type="number" id="count" name="count" value="" min="0" max="500"><br> </fieldset> 
+      <fieldset> 
+      <legend><b>Mode of payment</b></legend> 
+      <label>Choose your mode of payment</label><br> 
+      <input type="radio" id="Net banking" name="payment"> 
+      <label>Net banking</label><br> 
+      <input type="radio" id="Credit card" name="payment"> 
+      <label>Credit card</label><br> 
+      <input type="radio" id="Debit card" name="payment"> 
+      <label>Debit card</label><br>
+      <input type="radio" id="Cash on delivery" name="payment"> 
+      <label>Cash on delivery</label><br> 
+      </fieldset> 
+      <button type="submit">Submit 
+      </button> 
+    </form>
+  </body> 
+</html>
+
+
+:root {
+    --color-white: #e9e9e9;
+    --color-black: #47d015;
+    --color-black-1: #2473d9;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+   
+  }
+h1{
+    color:white;
+}
+  .menu-bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+  }
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  .menu-bar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+    position: relative;
+  }
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  /* dropdown menu style */
+  .dropdown-menu {
+    display: none;
+  }
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+  }
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  .dropdown-menu-1 {
+    display: none;
+  }
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: var(--color-black);
+  }
+  .hero {
+    height: calc(100px - 80px);
+    background-image: url(./bg.jpg);
+    background-position: center;
+  }
+
+function validate() {
+    if( document.myForm.name.value == "" ) {
+    alert( "Please provide your name!" );
+    document.myForm.name.focus() ;
+    return false;
+    }
+
+    if( document.myForm.mobile.value == "" ) {
+    alert( "Please provide your valid mobile number!" );
+    document.myForm.mobile.focus() ;
+    return false;
+    }
+
+    if( document.myForm.mail.value == "" ) {
+    alert( "Please provide your email!" );
+    document.myForm.mail.focus() ;
+    return false;
+    }
+
+    if( document.myForm.address.value == "" ) {
+    alert( "Please provide your address!" );
+    document.myForm.address.focus() ;
+    return false;
+    }
+    return (true);
+  }
